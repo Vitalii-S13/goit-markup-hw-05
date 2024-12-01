@@ -622,7 +622,7 @@
       </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-form-icon-close" width="8" height="8">
@@ -680,40 +680,40 @@
           </div>
 
           <div class="modal-form-field">
-            <label class="modal-form-label" for="user-message">Comment</label>
+            <label class="modal-form-label" for="user-comment">Comment</label>
 
             <textarea
-              class="modal-form-message"
-              id="user-message"
-              name="user-message"
-              placeholder="Text-input"
+              class="modal-form-comment"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
               minlength="20"
               maxlength="250"
             ></textarea>
           </div>
-          <div class="modal-form-egreement">
+          <div class="modal-form-privacy">
             <input
               class="visually-hidden"
               type="checkbox"
-              name="user-agreement"
-              id="user-agreement"
+              name="user-privacy"
+              id="user-privacy"
               value="true"
               checked
             />
-            <label class="modal-form-egreement-text" for="user-agreement">
+            <label class="modal-form-privacy-text" for="user-privacy">
               <span class="modal-form-checkbox">
                 <svg class="modal-form-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a href="#" class="modal-form-egreement-link" target="_blank"
+              <a href="#" class="modal-form-privacy-link" target="_blank"
                 >Privacy Policy</a
               >
             </label>
           </div>
+          <button class="modal-btn" type="button">Send</button>
         </form>
-        <button class="modal-btn" type="button">Send</button>
       </div>
     </div>
   </body>

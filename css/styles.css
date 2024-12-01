@@ -755,7 +755,7 @@ margin-bottom: 16px;
 
 .modal-form-field{
      margin-bottom: 8px;
-     margin-bottom: 16px;
+    
 }
 
 .modal-form-label {
@@ -809,6 +809,9 @@ margin-bottom: 16px;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-form-field-comment {
+    margin-bottom: 16px;
+}
 
 .modal-form-comment {
     width: 100%;
@@ -827,6 +830,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         background-color: transparent;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         outline: transparent;
+
 }
 
 .modal-form-comment:focus {

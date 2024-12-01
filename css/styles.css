@@ -843,20 +843,18 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
       
 }
 
-input[type="checkbox"]:checked+.user-agreement-text>.custom-checkbox {
-    background-color: #404bbf;
+input[type='checkbox']:checked+label .modal-form-checkbox {
+    background-color:#404bbf;
     border: none;
-    fill: #F4F4FD;
+    fill: #f4f4fd;
+  
 }
 
-
- 
-/* 
-input[type='checkbox']:focus-visible
+/* input[type='checkbox']:focus-visible
 + .modal-form-privacy-text
 > .modal-form-checkbox {
-    outline: 2px solid #404bbf;
-} */
+    outline: 2px solid #404bbf; } */
+
 
 .modal-form-privacy-text {
     font-family: "Roboto", sans-serif;
